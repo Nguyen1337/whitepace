@@ -1,0 +1,23 @@
+$color-bg: #043873;
+$color-accent: #4f9cf9;
+$color-gold: #ffe492;
+$color-black: #212529;
+$color-white: #ffffff;
+$button-height: 63px;
+$desktop-title: 64px;
+$mobile-title: 54px;
+$mobile-s-title: 36px;
+$border-radius: 10px;
+$border-radius-small: 8px;
+
+@mixin title {
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -0.33px;
+}
+
+@mixin text {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.33px;
+}
